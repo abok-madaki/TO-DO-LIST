@@ -1,0 +1,38 @@
+body{
+margin: 0%;
+padding: 0%;
+background: url('TO-DO-LIST.jpg') no-repeat center fixed;
+background-size: cover;
+}
+.container{
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  background-color: #fafafa;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.input-field{
+  text-align: center;
+}
+input[type="text"]{
+  color: #fff;
+  border: none;
+  background-color: #c5d7d7;
+  max-width: 400px;
+}
+.todos li{
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+}
+.delete{
+  cursor: pointer;
+  color: red;
+}
